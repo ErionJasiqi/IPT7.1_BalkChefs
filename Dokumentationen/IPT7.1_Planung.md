@@ -87,19 +87,16 @@ Wir brauchen eine Backend-Datenbank damit alle Funktionen ausführbar sind und a
 
 ## <u>Zeitplan:</u>
 
-| Datum                                               | Paket                                                       |
-| --------------------------------------------------- | ----------------------------------------------------------- |
-| 24.03.2025                                          | Mockup, Planung, Vorbereitungen (evtl. Tutorials)           |
-| 31.03.2025                                          | Funktionalitäten programmieren                              |
-| 07.04.2025                                          | Funktionalitäten programmieren                              |
-| 14.04.2025                                          | Ersten CSS-Code für Design schreiben                        |
-| 21.04.2025                                          | Backend & Datenbank Erstellung                              |
-| 28.04.2025                                          | Login Funktion, Funktionalitäten, Design                    |
-| 05.05.2025                                          | CSS-Code weiterschreiben                                    |
-| 12.05.2025                                          | Funktionalitäten                                            |
-| 19.05.2025                                          | Login Funktion, Backend                                     |
-| 26.05.2025                                          | Login Funktion, Backend                                     |
-| Juni                                                | Funktionalitäten <br/>Backend und CSS-Code fertigschreiben, |
-| <br/>Funktionalitäten überprüfen & evtl. verbessern |                                                             |
-| <br/>Präsentation erstellen                         |                                                             |
-| <br/>Abgabe des Projektes                           |                                                             |
+| Datum      | Paket                                                                                                                                                              |
+| ---------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+| 24.03.2025 | Mockup, Planung, Vorbereitungen (evtl. Tutorials)                                                                                                                  |
+| 31.03.2025 | Funktionalitäten programmieren                                                                                                                                     |
+| 07.04.2025 | Funktionalitäten programmieren                                                                                                                                     |
+| 14.04.2025 | Ersten CSS-Code für Design schreiben                                                                                                                               |
+| 21.04.2025 | Backend & Datenbank Erstellung                                                                                                                                     |
+| 28.04.2025 | Login Funktion, Funktionalitäten, Design                                                                                                                           |
+| 05.05.2025 | CSS-Code weiterschreiben                                                                                                                                           |
+| 12.05.2025 | Funktionalitäten                                                                                                                                                   |
+| 19.05.2025 | Login Funktion, Backend                                                                                                                                            |
+| 26.05.2025 | Login Funktion, Backend                                                                                                                                            |
+| Juni       | Funktionalitäten <br/>Backend und CSS-Code fertigschreiben,<br/>Funktionalitäten überprüfen & evtl. verbessern<br/>Präsentation erstellen<br/>Abgabe des Projektes |
