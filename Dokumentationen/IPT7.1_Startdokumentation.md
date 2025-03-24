@@ -2,7 +2,7 @@
 
 ## <u>Brainstorming:</u>
 
-<u>Ideen:</u>
+<u>**Ideen:**</u>
 
 - Time Capsule
 
@@ -22,12 +22,12 @@ Wir haben uns für eine Rezeptverwaltung entschieden, da es am meisten Sinn mach
 
 ## <u>Aufwand:</u>
 
-- CRUD-Funktionen der Rezepte → Mittel
-- Login Funktion & Sprachauswahl → Hoch
-- Zutaten-zu-Rezept-Funktion → Hoch
-- Bewertungssystem (1–5 Sterne) → Mittel
-- Responsive Design & Benutzerfreundlichkeit → Mittel
-- Backend Verbindung → Hoch
+- CRUD-Funktionen der Rezepte → **Mittel**
+- Login Funktion & Sprachauswahl → **Hoch**
+- Zutaten-zu-Rezept-Funktion → **Hoch**
+- Bewertungssystem (1–5 Sterne) → **Mittel**
+- Responsive Design & Benutzerfreundlichkeit → **Mittel**
+- Backend Verbindung → **Hoch**
 
 Für ein erfolgreiches Projekt braucht man auch eine gute Planung (z.B. Mockup), für welches man einigermassen Zeit investieren muss. Knackpunkte des Projekts wären die Login Funktion, Sprachauswahl sowie auch die Verbindung mit dem Backend. Um solche Knackpunkte zu lösen, müssten wir ausserhalb der Schule genug Zeit investieren, sodass wir am nächsten Schultag an der nächsten Aufgabe weitermachen können und nicht an einer Aufgabe die ganze Zeit feststecken. 
 
