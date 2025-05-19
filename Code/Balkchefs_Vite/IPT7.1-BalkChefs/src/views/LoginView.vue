@@ -1,9 +1,0 @@
-<script>
-</script>
-<template>
-    <html>
-<h1>Hallo</h1>
-    </html>
-</template>
-<style>
-</style>
