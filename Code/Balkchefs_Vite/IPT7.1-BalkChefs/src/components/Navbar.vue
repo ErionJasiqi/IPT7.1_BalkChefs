@@ -4,12 +4,16 @@
       <img src="../assets/logo.png" alt="Logo">
     </div>
     <div class="nav-links">
-      <router-link to="/">Ana Sayfa</router-link>
-      <router-link to="/search">Tarif Ara</router-link>
-      <router-link to="/login">Giriş Yap</router-link>
+      <router-link to="/">{{ $t('nav.home') }}</router-link>
+      <router-link to="/search">{{ $t('nav.search') }}</router-link>
+      <router-link to="/login">{{ $t('nav.login') }}</router-link>
     </div>
   </nav>
 </template>
+
+<script>
+export default {};
+</script>
 
 <style scoped>
 .navbar {
@@ -22,7 +26,7 @@
 }
 
 .logo img {
-  height: 40px;
+  height: 60px;
 }
 
 .nav-links {
