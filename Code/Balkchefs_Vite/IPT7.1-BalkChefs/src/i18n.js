@@ -13,7 +13,6 @@ const messages = {
       desserts: "🍬 Tatlılar & Atıştırmalıklar"
     },
     changeLanguage: "Dili Değiştir",
-    // ... mevcut tarifler vs.
   },
   en: {
     nav: {
@@ -28,9 +27,8 @@ const messages = {
       desserts: "🍬 Desserts & Snacks"
     },
     changeLanguage: "Change Language",
-    // ...
+    
   },
-  // Diğer diller: de, fr aynı şekilde
 };
 const i18n = createI18n({
   locale: localStorage.getItem('lang') || 'tr',
@@ -38,4 +36,4 @@ const i18n = createI18n({
   messages
 });
 
-export default i18n; // 💥 Bu SATIR mutlaka gerekli!
+export default i18n;

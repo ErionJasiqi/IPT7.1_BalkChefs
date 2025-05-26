@@ -36,7 +36,6 @@ export default {
     const recipeKey = {
       1: 'karniyarik',
       2: 'tiramisu'
-      // Diğerleri eklenebilir
     }[id];
 
     const recipe = computed(() => t(`recipes.${recipeKey}`, {}, { clone: true }));
