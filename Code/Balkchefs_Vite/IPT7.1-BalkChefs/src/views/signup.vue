@@ -37,13 +37,30 @@
 
 <script setup>
 import { ref } from 'vue'
+import { useRouter } from 'vue-router'
+import axios from 'axios'
 
 const name = ref('')
 const email = ref('')
 const password = ref('')
+const router = useRouter()
 
-const handleSubmit = () => {
-  console.log('Signing up with:', { name: name.value, email: email.value, password: password.value })
-  // You can integrate API call here
+const handleSubmit = async () => {
+  try {
+    const res = await axios.post('http://localhost:8443/api/register', {
+      name: name.value,
+      email: email.value,
+      password: password.value
+    })
+
+    // Optionally store user data
+    localStorage.setItem('user', JSON.stringify(res.data.user))
+
+    // Redirect to homepage
+    router.push('/')
+  } catch (err) {
+    alert('Signup failed')
+    console.error(err)
+  }
 }
 </script>

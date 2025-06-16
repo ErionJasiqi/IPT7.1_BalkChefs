@@ -50,6 +50,7 @@ export default {
     changeLocale() {
       this.$i18n.locale = this.currentLocale;
       localStorage.setItem('lang', this.currentLocale);
+      location.reload();
     }
   }
 };

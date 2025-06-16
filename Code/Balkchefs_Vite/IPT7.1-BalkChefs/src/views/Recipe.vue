@@ -30,24 +30,43 @@ import { computed } from 'vue';
 export default {
   setup() {
     const route = useRoute();
-    const { t, locale } = useI18n();
+    const { t, tm, locale } = useI18n();
 
     const id = Number(route.params.id);
     const recipeKey = {
       1: 'karniyarik',
-      2: 'tiramisu'
+      2: 'tiramisu',
+      3: 'adanaKebap',
+      4: 'etliGuvec',
+      5: 'falafel',
+      6: 'veganburger',
+      7: 'baklava',
+      8: 'profiterol'
     }[id];
 
-    const recipe = computed(() => t(`recipes.${recipeKey}`, {}, { clone: true }));
+    const recipe = computed(() => tm(`recipes.${recipeKey}`));
+
 
     const imageMap = {
       karniyarik: '/src/assets/karniyarik.jpg',
-      tiramisu: '/src/assets/tiramisu.jpg'
+      tiramisu: '/src/assets/tiramisu.jpg',
+      adanaKebap: '/src/assets/adana.jpg',
+      baklava: '/src/assets/baklava.jpg',
+      etliGuvec: '/src/assets/guvec.jpg',
+      falafel: '/src/assets/falafel.jpg',
+      veganburger: '/src/assets/vegan-burger.jpg',
+      profiterol: '/src/assets/profiterol.jpg',
     };
 
     const bgColorMap = {
       karniyarik: 'bg-gradient-to-r from-red-100 to-red-300',
-      tiramisu: 'bg-gradient-to-r from-yellow-100 to-yellow-300'
+      tiramisu: 'bg-gradient-to-r from-yellow-100 to-yellow-300',
+      adanaKebap: 'bg-gradient-to-r from-red-150 to-red-400',
+      baklava: 'bg-gradient-to-r from-yellow-100 to-yellow-300',
+      etliGuvec: 'bg-gradient-to-r from-blue-100 to-blue-300',
+      falafel: 'bg-gradient-to-r from-zinc-100 to-zinc-500',
+      veganburger: 'bg-gradient-to-r from-gray-300 to-gray-800',
+      profiterol: 'bg-gradient-to-r from-slate-300 to-slate-800',
     };
 
     return {
