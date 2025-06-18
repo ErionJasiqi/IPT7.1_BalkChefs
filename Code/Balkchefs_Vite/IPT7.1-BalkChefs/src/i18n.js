@@ -16,205 +16,222 @@ const messages = {
     changeLanguage: "Dili Değiştir",
     ingredients: "Malzemeler",
     instructions: "Yapılış",
-    recipes: {
-        karniyarik: {
-        name: "Karnıyarık",
-        description: "Lezzetli Türk mutfağı klasiği: Karniyarık, kızartılmış patlıcanların kıymalı harçla buluştuğu, nefis sosuyla damaklarda iz bırakan geleneksel bir lezzet.",
+      recipes: {
+          karniyarik: {
+          name: "Karnıyarık",
+          description: "Lezzetli Türk mutfağı klasiği: Karniyarık, kızartılmış patlıcanların kıymalı harçla buluştuğu, nefis sosuyla damaklarda iz bırakan geleneksel bir lezzet.",
+          ingredients: [
+            "4 patlıcan", "250g kıyma", "1 soğan", "2 domates", "2 diş sarımsak", "1–2 yeşil biber", "1 yemek kaşığı domates salçası", "Tuz", "Karabiber", "Pul biber (isteğe bağlı)", "Sıvı yağ", "Yarım çay bardağı sıcak su", "Birkaç dal maydanoz (isteğe bağlı)"
+          ],
+          instructions: [
+            "Patlıcanları alacalı soyun, tuzlu suda 20–30 dakika bekletin. Kurulayın ve bol sıvı yağda yumuşayana kadar kızartın.",
+            "Bir tavada sıvı yağ ile doğranmış soğanları kavurun. Kıymayı ekleyip suyunu salıp çekene kadar pişirin.",
+            "Doğranmış sarımsak, yeşil biber, tuz, karabiber ve isteğe bağlı pul biberi ekleyin. Salçayı da ilave edip 1–2 dakika daha kavurun.",
+            "Rendelenmiş 1 domatesi ekleyin ve harcı 5 dakika pişirin.",
+            "Kızarttığınız patlıcanların ortasını uzunlamasına yarın ve iç harçla doldurun.",
+            "Üzerine domates ve biber dilimleri yerleştirip tepsiye dizin.",
+            "Kalan 1 domatesi rendeleyip yarım çay bardağı sıcak su ve az salçayla karıştırın, tepsiye dökün.",
+            "180°C önceden ısıtılmış fırında 25–30 dakika pişirin.",
+            "Fırından aldıktan sonra ince doğranmış maydanozla süsleyerek servis edin."
+          ]
+        },
+        tiramisu: {
+          name: "Tiramisu",
+          description: "Kahveyle ıslatılmış kedi dili ve mascarpone kremasının buluştuğu, klasik bir İtalyan tatlısı.",
+          ingredients: [
+            "1 paket kedi dili (yaklaşık 200g)",
+            "2 adet yumurta",
+            "250g mascarpone peyniri",
+            "1/2 su bardağı toz şeker",
+            "1 su bardağı soğutulmuş filtre kahve veya espresso",
+            "1 tatlı kaşığı vanilin (isteğe bağlı)",
+            "Kakao (üzeri için)"
+          ],
+          instructions: [
+            "Yumurtaların sarılarını ve beyazlarını ayırın. Yumurta sarılarını toz şekerle rengi açılana kadar çırpın.",
+            "Mascarpone peynirini ekleyip pürüzsüz bir kıvam alana kadar karıştırın. Vanilin kullanacaksanız bu aşamada ekleyin.",
+            "Ayrı bir kapta yumurta beyazlarını kar gibi olana kadar çırpın. Köpüğü, krema karışımına spatula ile yavaşça yedirin.",
+            "Kedi dili bisküvileri soğuk kahveye batırıp kısa süre bekletin (fazla bekletmeyin, dağılabilir).",
+            "Islatılan bisküvileri servis kabına tek sıra dizin. Üzerine kremadan bir kat yayın.",
+            "Aynı işlemi kat kat tekrarlayın, en üstte krema olacak şekilde tamamlayın.",
+            "Üzerine bolca kakao serpin. Streç film ile örtüp buzdolabında en az 4 saat, tercihen bir gece dinlendirin.",
+            "Servis etmeden önce tekrar kakao serpebilirsiniz."
+          ]
+        },
+        baklava: {
+        name: "Baklava",
+        description: "Kat kat yufkaların cevizle buluştuğu, şerbetle taçlanan geleneksel bir Türk tatlısı.",
         ingredients: [
-          "4 patlıcan", "250g kıyma", "1 soğan", "2 domates", "2 diş sarımsak", "1–2 yeşil biber", "1 yemek kaşığı domates salçası", "Tuz", "Karabiber", "Pul biber (isteğe bağlı)", "Sıvı yağ", "Yarım çay bardağı sıcak su", "Birkaç dal maydanoz (isteğe bağlı)"
+          "500g baklavalık yufka",
+          "300g dövülmüş ceviz içi",
+          "250g tereyağı",
+          "3 su bardağı toz şeker",
+          "2,5 su bardağı su",
+          "Birkaç damla limon suyu"
         ],
         instructions: [
-          "Patlıcanları alacalı soyun, tuzlu suda 20–30 dakika bekletin. Kurulayın ve bol sıvı yağda yumuşayana kadar kızartın.",
-          "Bir tavada sıvı yağ ile doğranmış soğanları kavurun. Kıymayı ekleyip suyunu salıp çekene kadar pişirin.",
-          "Doğranmış sarımsak, yeşil biber, tuz, karabiber ve isteğe bağlı pul biberi ekleyin. Salçayı da ilave edip 1–2 dakika daha kavurun.",
-          "Rendelenmiş 1 domatesi ekleyin ve harcı 5 dakika pişirin.",
-          "Kızarttığınız patlıcanların ortasını uzunlamasına yarın ve iç harçla doldurun.",
-          "Üzerine domates ve biber dilimleri yerleştirip tepsiye dizin.",
-          "Kalan 1 domatesi rendeleyip yarım çay bardağı sıcak su ve az salçayla karıştırın, tepsiye dökün.",
-          "180°C önceden ısıtılmış fırında 25–30 dakika pişirin.",
-          "Fırından aldıktan sonra ince doğranmış maydanozla süsleyerek servis edin."
+          "Tereyağını eritip soğumaya bırakın.",
+          "Fırın tepsisini yağlayın ve yufkaların yarısını tepsiye tek tek sererek her kata eritilmiş tereyağı sürün.",
+          "Ortaya ceviz içini eşit şekilde serpiştirin.",
+          "Kalan yufkaları da aynı şekilde dizip yağlayın.",
+          "Baklavayı bıçakla dilimleyin (baklava dilimi veya kare).",
+          "Kalan tereyağını üzerine dökün.",
+          "Önceden ısıtılmış 180°C fırında üzeri iyice kızarana kadar pişirin.",
+          "Bu sırada şerbet için su ve şekeri kaynatın. Kaynadıktan sonra limon suyunu ekleyip 10 dakika daha kaynatın.",
+          "Fırından çıkan sıcak baklavanın üzerine ılık şerbeti dökün.",
+          "Şerbetini çekmesi için oda sıcaklığında birkaç saat bekletin ve servis edin."
         ]
       },
-      tiramisu: {
-        name: "Tiramisu",
-        description: "Kahveyle ıslatılmış kedi dili ve mascarpone kremasının buluştuğu, klasik bir İtalyan tatlısı.",
+        adanaKebap: {
+        name: "Adana Kebap",
+        description: "Acılı ve bol baharatlı, ızgarada pişen geleneksel bir kebap lezzeti.",
         ingredients: [
-          "1 paket kedi dili (yaklaşık 200g)",
-          "2 adet yumurta",
-          "250g mascarpone peyniri",
-          "1/2 su bardağı toz şeker",
-          "1 su bardağı soğutulmuş filtre kahve veya espresso",
-          "1 tatlı kaşığı vanilin (isteğe bağlı)",
-          "Kakao (üzeri için)"
+          "500g kıyma (tercihen kuzu veya karışık)",
+          "1 adet soğan",
+          "2 diş sarımsak",
+          "1 tatlı kaşığı pul biber",
+          "1 çay kaşığı karabiber",
+          "1 tatlı kaşığı tuz",
+          "Şiş (ızgara için)",
+          "Lavaş veya pilav (servis için)"
         ],
         instructions: [
-          "Yumurtaların sarılarını ve beyazlarını ayırın. Yumurta sarılarını toz şekerle rengi açılana kadar çırpın.",
-          "Mascarpone peynirini ekleyip pürüzsüz bir kıvam alana kadar karıştırın. Vanilin kullanacaksanız bu aşamada ekleyin.",
-          "Ayrı bir kapta yumurta beyazlarını kar gibi olana kadar çırpın. Köpüğü, krema karışımına spatula ile yavaşça yedirin.",
-          "Kedi dili bisküvileri soğuk kahveye batırıp kısa süre bekletin (fazla bekletmeyin, dağılabilir).",
-          "Islatılan bisküvileri servis kabına tek sıra dizin. Üzerine kremadan bir kat yayın.",
-          "Aynı işlemi kat kat tekrarlayın, en üstte krema olacak şekilde tamamlayın.",
-          "Üzerine bolca kakao serpin. Streç film ile örtüp buzdolabında en az 4 saat, tercihen bir gece dinlendirin.",
-          "Servis etmeden önce tekrar kakao serpebilirsiniz."
+          "Soğan ve sarımsağı rendeleyin.",
+          "Kıymayı derin bir kaba alın, soğan, sarımsak ve baharatları ekleyin.",
+          "Macun kıvamına gelene kadar iyice yoğurun (yaklaşık 10 dakika).",
+          "Hazırladığınız kıymayı şişlere bastırarak uzun ve ince şekilde şekillendirin.",
+          "Izgarada veya döküm tavada, yüksek ateşte çevirerek pişirin.",
+          "Lavaş ekmek, közlenmiş biber ve domatesle sıcak servis edin."
         ]
       },
-      baklava: {
-      name: "Baklava",
-      description: "Kat kat yufkaların cevizle buluştuğu, şerbetle taçlanan geleneksel bir Türk tatlısı.",
-      ingredients: [
-        "500g baklavalık yufka",
-        "300g dövülmüş ceviz içi",
-        "250g tereyağı",
-        "3 su bardağı toz şeker",
-        "2,5 su bardağı su",
-        "Birkaç damla limon suyu"
-      ],
-      instructions: [
-        "Tereyağını eritip soğumaya bırakın.",
-        "Fırın tepsisini yağlayın ve yufkaların yarısını tepsiye tek tek sererek her kata eritilmiş tereyağı sürün.",
-        "Ortaya ceviz içini eşit şekilde serpiştirin.",
-        "Kalan yufkaları da aynı şekilde dizip yağlayın.",
-        "Baklavayı bıçakla dilimleyin (baklava dilimi veya kare).",
-        "Kalan tereyağını üzerine dökün.",
-        "Önceden ısıtılmış 180°C fırında üzeri iyice kızarana kadar pişirin.",
-        "Bu sırada şerbet için su ve şekeri kaynatın. Kaynadıktan sonra limon suyunu ekleyip 10 dakika daha kaynatın.",
-        "Fırından çıkan sıcak baklavanın üzerine ılık şerbeti dökün.",
-        "Şerbetini çekmesi için oda sıcaklığında birkaç saat bekletin ve servis edin."
-      ]
+      etliGuvec: {
+        name: "Etli Güveç",
+        description: "Sebzeler ve yumuşacık etin bir araya geldiği, fırında yavaş pişen nefis bir güveç yemeği.",
+        ingredients: [
+          "500g kuşbaşı dana veya kuzu eti",
+          "2 adet patates",
+          "2 adet patlıcan",
+          "1 adet soğan",
+          "2 adet yeşil biber",
+          "2 adet domates",
+          "2 diş sarımsak",
+          "1 yemek kaşığı domates salçası",
+          "Tuz",
+          "Karabiber",
+          "Sıvı yağ"
+        ],
+        instructions: [
+          "Etleri sıvı yağda suyunu salıp çekene kadar kavurun.",
+          "Doğranmış soğan ve sarımsağı ekleyip birkaç dakika kavurun.",
+          "Salçayı ekleyin, ardından doğranmış sebzeleri sırayla tencereye alın.",
+          "Tuz ve karabiberle tatlandırın, iyice karıştırın.",
+          "Hazırlığı güveç kabına alın ve üzerini domatesle süsleyin.",
+          "Üzerine biraz su gezdirin ve kapağını kapatın.",
+          "Önceden ısıtılmış 180°C fırında 45–60 dakika pişirin.",
+          "Sıcak olarak servis edin."
+        ]
+      },
+        falafel: {
+        name: "Falafel",
+        description: "Nohutla yapılan, dışı çıtır içi yumuşak, Ortadoğu kökenli nefis bir vejetaryen köfte.",
+        ingredients: [
+          "2 su bardağı haşlanmamış nohut (bir gece suda bekletilmiş)",
+          "1 adet soğan",
+          "3 diş sarımsak",
+          "1/2 su bardağı doğranmış maydanoz",
+          "1/2 su bardağı doğranmış taze kişniş (isteğe bağlı)",
+          "1 tatlı kaşığı kimyon",
+          "1 çay kaşığı karbonat",
+          "Tuz",
+          "Karabiber",
+          "Kızartmak için sıvı yağ"
+        ],
+        instructions: [
+          "Nohutları bir gece önceden ıslatın, ertesi gün suyunu süzün.",
+          "Tüm malzemeleri mutfak robotunda pütürlü ama yapışkan bir kıvam alana kadar çekin.",
+          "Karışımdan ceviz büyüklüğünde toplar yapın ve hafifçe bastırın.",
+          "Geniş bir tavada yağı ısıtın ve falafelleri altın rengi alana kadar kızartın.",
+          "Kağıt havlu üzerinde fazla yağını alın ve sıcak servis edin.",
+          "İsteğe göre tahin sosu veya lavaşla servis edebilirsiniz."
+        ]
+      },
+        veganburger: {
+        name: "Vegan Burger",
+        description: "Bitkisel proteinle hazırlanan, dışı çıtır içi yumuşak ve doyurucu nefis bir vegan burger.",
+        ingredients: [
+          "1 su bardağı haşlanmış nohut",
+          "1 su bardağı haşlanmış mercimek (kırmızı veya yeşil)",
+          "1 adet soğan",
+          "2 diş sarımsak",
+          "2 yemek kaşığı un (veya yulaf unu)",
+          "1 yemek kaşığı keten tohumu (isteğe bağlı)",
+          "1 çay kaşığı kimyon",
+          "Tuz",
+          "Karabiber",
+          "Zeytinyağı",
+          "Burger ekmeği",
+          "Domates, marul, turşu (servis için)"
+        ],
+        instructions: [
+          "Nohut, mercimek, doğranmış soğan, sarımsak ve baharatları mutfak robotunda püre haline getirin.",
+          "Un ve keten tohumunu ekleyin, karışım elle şekil alacak kıvama gelene kadar yoğurun.",
+          "Karışımdan burger köfteleri oluşturun.",
+          "Tavada zeytinyağında her iki tarafı da kızarana kadar pişirin.",
+          "Ekmek arası olarak; domates, marul, turşu ile birlikte servis edin."
+        ]
+      },
+      profiterol: {
+        name: "Profiterol",
+        description: "İçi kremayla dolu, üzeri çikolata sosuyla kaplı klasik bir Fransız tatlısı.",
+        ingredients: [
+          "1 su bardağı su",
+          "100g tereyağı",
+          "1 su bardağı un",
+          "3 adet yumurta",
+          "1 tutam tuz",
+          "2 su bardağı süt (kreması için)",
+          "2 yemek kaşığı un (kreması için)",
+          "1 yemek kaşığı nişasta",
+          "1/2 su bardağı şeker",
+          "1 yumurta (kreması için)",
+          "1 paket vanilin",
+          "80g bitter çikolata",
+          "1 su bardağı süt (çikolata sosu için)",
+          "1 tatlı kaşığı tereyağı"
+        ],
+        instructions: [
+          "Tencereye su, tereyağı ve tuzu alıp kaynatın. Unu ekleyip hızlıca karıştırarak pişirin. Hamur toparlanınca ocaktan alın.",
+          "Ilıyan hamura yumurtaları teker teker ekleyin ve iyice çırpın.",
+          "Hamuru sıkma torbasına alın, yağlı kağıt serili tepsiye küçük parçalar sıkın. Önceden ısıtılmış 180°C fırında pişirin.",
+          "Krema için süt, un, nişasta, şeker ve yumurtayı pişirin. Ocaktan alınca vanilin ekleyin, soğutun.",
+          "Soğuyan hamurların içini kesin ve kremayla doldurun.",
+          "Çikolata sos için sütü ısıtın, çikolatayı ve tereyağını ekleyip eritin.",
+          "Profiterollerin üzerine çikolata sos gezdirerek servis edin."
+        ]
+      }
     },
-      adanaKebap: {
-      name: "Adana Kebap",
-      description: "Acılı ve bol baharatlı, ızgarada pişen geleneksel bir kebap lezzeti.",
-      ingredients: [
-        "500g kıyma (tercihen kuzu veya karışık)",
-        "1 adet soğan",
-        "2 diş sarımsak",
-        "1 tatlı kaşığı pul biber",
-        "1 çay kaşığı karabiber",
-        "1 tatlı kaşığı tuz",
-        "Şiş (ızgara için)",
-        "Lavaş veya pilav (servis için)"
-      ],
-      instructions: [
-        "Soğan ve sarımsağı rendeleyin.",
-        "Kıymayı derin bir kaba alın, soğan, sarımsak ve baharatları ekleyin.",
-        "Macun kıvamına gelene kadar iyice yoğurun (yaklaşık 10 dakika).",
-        "Hazırladığınız kıymayı şişlere bastırarak uzun ve ince şekilde şekillendirin.",
-        "Izgarada veya döküm tavada, yüksek ateşte çevirerek pişirin.",
-        "Lavaş ekmek, közlenmiş biber ve domatesle sıcak servis edin."
-      ]
+
+      login: {
+      title: "Giriş Yap",
+      email: "E-posta adresi",
+      password: "Şifre",
+      submit: "Giriş",
+      signupPrompt: "Ücretsiz kayıt olmak için tıklayın →",
+      signupLink: "Kayıt ol",
+      error: "Giriş başarısız. Bilgilerinizi kontrol edin."
     },
-    etliGuvec: {
-      name: "Etli Güveç",
-      description: "Sebzeler ve yumuşacık etin bir araya geldiği, fırında yavaş pişen nefis bir güveç yemeği.",
-      ingredients: [
-        "500g kuşbaşı dana veya kuzu eti",
-        "2 adet patates",
-        "2 adet patlıcan",
-        "1 adet soğan",
-        "2 adet yeşil biber",
-        "2 adet domates",
-        "2 diş sarımsak",
-        "1 yemek kaşığı domates salçası",
-        "Tuz",
-        "Karabiber",
-        "Sıvı yağ"
-      ],
-      instructions: [
-        "Etleri sıvı yağda suyunu salıp çekene kadar kavurun.",
-        "Doğranmış soğan ve sarımsağı ekleyip birkaç dakika kavurun.",
-        "Salçayı ekleyin, ardından doğranmış sebzeleri sırayla tencereye alın.",
-        "Tuz ve karabiberle tatlandırın, iyice karıştırın.",
-        "Hazırlığı güveç kabına alın ve üzerini domatesle süsleyin.",
-        "Üzerine biraz su gezdirin ve kapağını kapatın.",
-        "Önceden ısıtılmış 180°C fırında 45–60 dakika pişirin.",
-        "Sıcak olarak servis edin."
-      ]
-    },
-      falafel: {
-      name: "Falafel",
-      description: "Nohutla yapılan, dışı çıtır içi yumuşak, Ortadoğu kökenli nefis bir vejetaryen köfte.",
-      ingredients: [
-        "2 su bardağı haşlanmamış nohut (bir gece suda bekletilmiş)",
-        "1 adet soğan",
-        "3 diş sarımsak",
-        "1/2 su bardağı doğranmış maydanoz",
-        "1/2 su bardağı doğranmış taze kişniş (isteğe bağlı)",
-        "1 tatlı kaşığı kimyon",
-        "1 çay kaşığı karbonat",
-        "Tuz",
-        "Karabiber",
-        "Kızartmak için sıvı yağ"
-      ],
-      instructions: [
-        "Nohutları bir gece önceden ıslatın, ertesi gün suyunu süzün.",
-        "Tüm malzemeleri mutfak robotunda pütürlü ama yapışkan bir kıvam alana kadar çekin.",
-        "Karışımdan ceviz büyüklüğünde toplar yapın ve hafifçe bastırın.",
-        "Geniş bir tavada yağı ısıtın ve falafelleri altın rengi alana kadar kızartın.",
-        "Kağıt havlu üzerinde fazla yağını alın ve sıcak servis edin.",
-        "İsteğe göre tahin sosu veya lavaşla servis edebilirsiniz."
-      ]
-    },
-      veganburger: {
-      name: "Vegan Burger",
-      description: "Bitkisel proteinle hazırlanan, dışı çıtır içi yumuşak ve doyurucu nefis bir vegan burger.",
-      ingredients: [
-        "1 su bardağı haşlanmış nohut",
-        "1 su bardağı haşlanmış mercimek (kırmızı veya yeşil)",
-        "1 adet soğan",
-        "2 diş sarımsak",
-        "2 yemek kaşığı un (veya yulaf unu)",
-        "1 yemek kaşığı keten tohumu (isteğe bağlı)",
-        "1 çay kaşığı kimyon",
-        "Tuz",
-        "Karabiber",
-        "Zeytinyağı",
-        "Burger ekmeği",
-        "Domates, marul, turşu (servis için)"
-      ],
-      instructions: [
-        "Nohut, mercimek, doğranmış soğan, sarımsak ve baharatları mutfak robotunda püre haline getirin.",
-        "Un ve keten tohumunu ekleyin, karışım elle şekil alacak kıvama gelene kadar yoğurun.",
-        "Karışımdan burger köfteleri oluşturun.",
-        "Tavada zeytinyağında her iki tarafı da kızarana kadar pişirin.",
-        "Ekmek arası olarak; domates, marul, turşu ile birlikte servis edin."
-      ]
-    },
-    profiterol: {
-      name: "Profiterol",
-      description: "İçi kremayla dolu, üzeri çikolata sosuyla kaplı klasik bir Fransız tatlısı.",
-      ingredients: [
-        "1 su bardağı su",
-        "100g tereyağı",
-        "1 su bardağı un",
-        "3 adet yumurta",
-        "1 tutam tuz",
-        "2 su bardağı süt (kreması için)",
-        "2 yemek kaşığı un (kreması için)",
-        "1 yemek kaşığı nişasta",
-        "1/2 su bardağı şeker",
-        "1 yumurta (kreması için)",
-        "1 paket vanilin",
-        "80g bitter çikolata",
-        "1 su bardağı süt (çikolata sosu için)",
-        "1 tatlı kaşığı tereyağı"
-      ],
-      instructions: [
-        "Tencereye su, tereyağı ve tuzu alıp kaynatın. Unu ekleyip hızlıca karıştırarak pişirin. Hamur toparlanınca ocaktan alın.",
-        "Ilıyan hamura yumurtaları teker teker ekleyin ve iyice çırpın.",
-        "Hamuru sıkma torbasına alın, yağlı kağıt serili tepsiye küçük parçalar sıkın. Önceden ısıtılmış 180°C fırında pişirin.",
-        "Krema için süt, un, nişasta, şeker ve yumurtayı pişirin. Ocaktan alınca vanilin ekleyin, soğutun.",
-        "Soğuyan hamurların içini kesin ve kremayla doldurun.",
-        "Çikolata sos için sütü ısıtın, çikolatayı ve tereyağını ekleyip eritin.",
-        "Profiterollerin üzerine çikolata sos gezdirerek servis edin."
-      ]
+      register: {
+      title: "Kayıt Ol",
+      name: "Ad Soyad",
+      email: "E-posta adresi",
+      password: "Şifre",
+      submit: "Kayıt Ol",
+      loginPrompt: "Zaten bir hesabınız var mı? →",
+      loginLink: "Giriş Yap",
+      error: "Kayıt başarısız. Lütfen bilgilerinizi kontrol edin."
     }
 
 
-
-
-
-    }
   },
 en: {
   nav: {
@@ -419,12 +436,27 @@ en: {
         "Pour chocolate sauce over the filled profiteroles and serve."
       ]
     }
-
-
-
-
+  },
+    login: {
+    title: "Login",
+    email: "Email address",
+    password: "Password",
+    submit: "Submit",
+    signupPrompt: "To register for free click here →",
+    signupLink: "Sign up",
+    error: "Login failed. Check your credentials."
+  },
+    register: {
+    title: "Sign Up",
+    name: "Full Name",
+    email: "Email address",
+    password: "Password",
+    submit: "Register",
+    loginPrompt: "Already have an account? →",
+    loginLink: "Login",
+    error: "Signup failed. Please check your information."
   }
-  
+
 },
   fr: {
     nav: {
@@ -442,7 +474,7 @@ en: {
     ingredients: "Ingrédients",
     instructions: "Préparation",
     recipes: {
-      karniyarik: {
+        karniyarik: {
         name: "Aubergine Farcie",
         description: "Un classique délicieux de la cuisine turque : des aubergines frites farcies de viande hachée savoureuse, le tout cuit au four avec une sauce tomate.",
         ingredients: [
@@ -461,7 +493,7 @@ en: {
           "Parsemez de persil frais avant de servir, si désiré."
         ]
       },
-      tiramisu: {
+        tiramisu: {
         name: "Tiramisu",
         description: "Un dessert italien classique à base de biscuits imbibés de café et d'une crème onctueuse au mascarpone.",
         ingredients: [
@@ -478,163 +510,178 @@ en: {
           "Avant de servir, vous pouvez saupoudrer de nouveau de cacao."
         ]
       },
-      baklava: {
-      name: "Baklava",
-      description: "Un dessert traditionnel turc composé de couches de pâte filo garnies de noix et nappé de sirop sucré.",
-      ingredients: [
-        "500g de pâte filo",
-        "300g de noix concassées",
-        "250g de beurre",
-        "3 verres de sucre",
-        "2,5 verres d'eau",
-        "Quelques gouttes de jus de citron"
-      ],
-      instructions: [
-        "Faites fondre le beurre et laissez-le refroidir légèrement.",
-        "Beurrez un plat allant au four et disposez la moitié des feuilles de pâte filo en les badigeonnant de beurre fondu.",
-        "Répartissez uniformément les noix concassées au centre.",
-        "Ajoutez le reste des feuilles de la même manière, en les beurrant.",
-        "Découpez le baklava en losanges ou en carrés à l’aide d’un couteau bien aiguisé.",
-        "Versez le reste du beurre fondu sur le dessus.",
-        "Faites cuire dans un four préchauffé à 180°C jusqu’à ce que le dessus soit doré.",
-        "Entre-temps, faites bouillir l'eau et le sucre pour le sirop. Ajoutez le jus de citron et laissez mijoter encore 10 minutes.",
-        "Versez le sirop tiède sur le baklava chaud dès sa sortie du four.",
-        "Laissez-le absorber le sirop à température ambiante pendant quelques heures avant de servir."
-      ]
+        baklava: {
+        name: "Baklava",
+        description: "Un dessert traditionnel turc composé de couches de pâte filo garnies de noix et nappé de sirop sucré.",
+        ingredients: [
+          "500g de pâte filo",
+          "300g de noix concassées",
+          "250g de beurre",
+          "3 verres de sucre",
+          "2,5 verres d'eau",
+          "Quelques gouttes de jus de citron"
+        ],
+        instructions: [
+          "Faites fondre le beurre et laissez-le refroidir légèrement.",
+          "Beurrez un plat allant au four et disposez la moitié des feuilles de pâte filo en les badigeonnant de beurre fondu.",
+          "Répartissez uniformément les noix concassées au centre.",
+          "Ajoutez le reste des feuilles de la même manière, en les beurrant.",
+          "Découpez le baklava en losanges ou en carrés à l’aide d’un couteau bien aiguisé.",
+          "Versez le reste du beurre fondu sur le dessus.",
+          "Faites cuire dans un four préchauffé à 180°C jusqu’à ce que le dessus soit doré.",
+          "Entre-temps, faites bouillir l'eau et le sucre pour le sirop. Ajoutez le jus de citron et laissez mijoter encore 10 minutes.",
+          "Versez le sirop tiède sur le baklava chaud dès sa sortie du four.",
+          "Laissez-le absorber le sirop à température ambiante pendant quelques heures avant de servir."
+        ]
+      },
+        adanaKebap: {
+        name: "Kebab d’Adana",
+        description: "Un kebab turc épicé et savoureux, traditionnellement grillé sur feu ouvert.",
+        ingredients: [
+          "500g de viande hachée (de préférence de l’agneau ou un mélange)",
+          "1 oignon",
+          "2 gousses d’ail",
+          "1 c. à café de piment en flocons",
+          "1/2 c. à café de poivre noir",
+          "1 c. à café de sel",
+          "Brochettes (pour griller)",
+          "Pain plat ou riz (pour accompagner)"
+        ],
+        instructions: [
+          "Râpez l’oignon et l’ail.",
+          "Placez la viande hachée dans un saladier, ajoutez l’oignon, l’ail et les épices.",
+          "Mélangez bien jusqu’à obtenir une texture pâteuse (environ 10 minutes de pétrissage).",
+          "Formez des kebabs longs et fins autour des brochettes.",
+          "Faites griller à feu vif en les retournant régulièrement jusqu’à cuisson complète.",
+          "Servez chaud avec du pain plat, des poivrons et des tomates grillés."
+        ]
+      },
+          etliGuvec: {
+        name: "Ragoût de Viande",
+        description: "Un plat mijoté au four où viande tendre et légumes se marient à merveille.",
+        ingredients: [
+          "500g de bœuf ou d’agneau en cubes",
+          "2 pommes de terre",
+          "2 aubergines",
+          "1 oignon",
+          "2 poivrons verts",
+          "2 tomates",
+          "2 gousses d’ail",
+          "1 c. à soupe de concentré de tomate",
+          "Sel",
+          "Poivre noir",
+          "Huile végétale"
+        ],
+        instructions: [
+          "Faites revenir la viande dans de l’huile jusqu’à ce qu’elle rende son jus et l’absorbe de nouveau.",
+          "Ajoutez l’oignon et l’ail émincés, faites revenir quelques minutes.",
+          "Incorporez le concentré de tomate, puis ajoutez les légumes coupés.",
+          "Salez, poivrez et mélangez bien.",
+          "Versez le tout dans un plat en terre cuite et décorez avec des tranches de tomate.",
+          "Ajoutez un peu d’eau, couvrez avec un couvercle ou du papier aluminium.",
+          "Faites cuire au four préchauffé à 180°C pendant 45–60 minutes.",
+          "Servez chaud."
+        ]
+      },
+        falafel: {
+        name: "Falafel",
+        description: "Une boulette végétarienne croustillante à l’extérieur et moelleuse à l’intérieur, à base de pois chiches et d’herbes.",
+        ingredients: [
+          "2 verres de pois chiches secs (trempés toute la nuit)",
+          "1 oignon",
+          "3 gousses d’ail",
+          "1/2 verre de persil haché",
+          "1/2 verre de coriandre fraîche hachée (optionnel)",
+          "1 c. à café de cumin",
+          "1 c. à café de bicarbonate de soude",
+          "Sel",
+          "Poivre",
+          "Huile végétale pour friture"
+        ],
+        instructions: [
+          "Faites tremper les pois chiches toute la nuit, puis égouttez-les.",
+          "Mixez tous les ingrédients jusqu’à obtention d’une pâte grossière mais collante.",
+          "Formez des boules de la taille d’une noix et aplatissez-les légèrement.",
+          "Faites chauffer l’huile et faites frire les falafels jusqu’à ce qu’ils soient bien dorés.",
+          "Égouttez sur du papier absorbant et servez chaud.",
+          "Servez avec une sauce tahini ou dans un pain plat, selon votre préférence."
+        ]
+      },
+        veganburger: {
+        name: "Burger Végétalien",
+        description: "Un burger savoureux et consistant à base de protéines végétales et d’épices.",
+        ingredients: [
+          "1 verre de pois chiches cuits",
+          "1 verre de lentilles cuites (rouges ou vertes)",
+          "1 oignon",
+          "2 gousses d’ail",
+          "2 c. à soupe de farine (ou farine d’avoine)",
+          "1 c. à soupe de graines de lin moulues (optionnel)",
+          "1 c. à café de cumin",
+          "Sel",
+          "Poivre",
+          "Huile d’olive",
+          "Pains à burger",
+          "Tomate, laitue, cornichons (pour servir)"
+        ],
+        instructions: [
+          "Mixez les pois chiches, lentilles, oignon, ail et épices jusqu’à obtention d’une pâte homogène.",
+          "Ajoutez la farine et les graines de lin, puis mélangez jusqu’à pouvoir former des galettes.",
+          "Façonnez les burgers.",
+          "Faites-les frire dans l’huile d’olive jusqu’à ce qu’ils soient bien dorés.",
+          "Servez dans du pain à burger avec tomate, laitue et cornichons."
+        ]
+      },
+        profiterol: {
+        name: "Profiterole",
+        description: "Un dessert français classique garni de crème pâtissière et nappé de sauce au chocolat.",
+        ingredients: [
+          "1 verre d’eau",
+          "100g de beurre",
+          "1 verre de farine",
+          "3 œufs",
+          "1 pincée de sel",
+          "2 verres de lait (pour la crème)",
+          "2 c. à soupe de farine (pour la crème)",
+          "1 c. à soupe de fécule",
+          "1/2 verre de sucre",
+          "1 œuf (pour la crème)",
+          "1 sachet de vanille",
+          "80g de chocolat noir",
+          "1 verre de lait (pour la sauce)",
+          "1 c. à café de beurre"
+        ],
+        instructions: [
+          "Faire bouillir l’eau, le beurre et le sel. Ajouter la farine, mélanger jusqu’à obtention d’une pâte. Laisser tiédir.",
+          "Incorporer les œufs un par un en mélangeant bien.",
+          "Former des petits tas sur une plaque et cuire à 180°C jusqu’à ce qu’ils soient dorés.",
+          "Préparer la crème : cuire le lait, la farine, la fécule, le sucre et l’œuf. Hors du feu, ajouter la vanille. Laisser refroidir.",
+          "Couper les choux et les garnir de crème.",
+          "Préparer la sauce : chauffer le lait, ajouter le chocolat et le beurre jusqu’à ce que le tout soit fondu.",
+          "Napper les choux garnis de sauce au chocolat et servir."
+        ]
+      },
     },
-      adanaKebap: {
-      name: "Kebab d’Adana",
-      description: "Un kebab turc épicé et savoureux, traditionnellement grillé sur feu ouvert.",
-      ingredients: [
-        "500g de viande hachée (de préférence de l’agneau ou un mélange)",
-        "1 oignon",
-        "2 gousses d’ail",
-        "1 c. à café de piment en flocons",
-        "1/2 c. à café de poivre noir",
-        "1 c. à café de sel",
-        "Brochettes (pour griller)",
-        "Pain plat ou riz (pour accompagner)"
-      ],
-      instructions: [
-        "Râpez l’oignon et l’ail.",
-        "Placez la viande hachée dans un saladier, ajoutez l’oignon, l’ail et les épices.",
-        "Mélangez bien jusqu’à obtenir une texture pâteuse (environ 10 minutes de pétrissage).",
-        "Formez des kebabs longs et fins autour des brochettes.",
-        "Faites griller à feu vif en les retournant régulièrement jusqu’à cuisson complète.",
-        "Servez chaud avec du pain plat, des poivrons et des tomates grillés."
-      ]
+      login: {
+      title: "Connexion",
+      email: "Adresse e-mail",
+      password: "Mot de passe",
+      submit: "Soumettre",
+      signupPrompt: "Pour vous inscrire gratuitement, cliquez ici →",
+      signupLink: "S'inscrire",
+      error: "Échec de la connexion. Vérifiez vos identifiants."
     },
-        etliGuvec: {
-      name: "Ragoût de Viande",
-      description: "Un plat mijoté au four où viande tendre et légumes se marient à merveille.",
-      ingredients: [
-        "500g de bœuf ou d’agneau en cubes",
-        "2 pommes de terre",
-        "2 aubergines",
-        "1 oignon",
-        "2 poivrons verts",
-        "2 tomates",
-        "2 gousses d’ail",
-        "1 c. à soupe de concentré de tomate",
-        "Sel",
-        "Poivre noir",
-        "Huile végétale"
-      ],
-      instructions: [
-        "Faites revenir la viande dans de l’huile jusqu’à ce qu’elle rende son jus et l’absorbe de nouveau.",
-        "Ajoutez l’oignon et l’ail émincés, faites revenir quelques minutes.",
-        "Incorporez le concentré de tomate, puis ajoutez les légumes coupés.",
-        "Salez, poivrez et mélangez bien.",
-        "Versez le tout dans un plat en terre cuite et décorez avec des tranches de tomate.",
-        "Ajoutez un peu d’eau, couvrez avec un couvercle ou du papier aluminium.",
-        "Faites cuire au four préchauffé à 180°C pendant 45–60 minutes.",
-        "Servez chaud."
-      ]
-    },
-      falafel: {
-      name: "Falafel",
-      description: "Une boulette végétarienne croustillante à l’extérieur et moelleuse à l’intérieur, à base de pois chiches et d’herbes.",
-      ingredients: [
-        "2 verres de pois chiches secs (trempés toute la nuit)",
-        "1 oignon",
-        "3 gousses d’ail",
-        "1/2 verre de persil haché",
-        "1/2 verre de coriandre fraîche hachée (optionnel)",
-        "1 c. à café de cumin",
-        "1 c. à café de bicarbonate de soude",
-        "Sel",
-        "Poivre",
-        "Huile végétale pour friture"
-      ],
-      instructions: [
-        "Faites tremper les pois chiches toute la nuit, puis égouttez-les.",
-        "Mixez tous les ingrédients jusqu’à obtention d’une pâte grossière mais collante.",
-        "Formez des boules de la taille d’une noix et aplatissez-les légèrement.",
-        "Faites chauffer l’huile et faites frire les falafels jusqu’à ce qu’ils soient bien dorés.",
-        "Égouttez sur du papier absorbant et servez chaud.",
-        "Servez avec une sauce tahini ou dans un pain plat, selon votre préférence."
-      ]
-    },
-      veganburger: {
-      name: "Burger Végétalien",
-      description: "Un burger savoureux et consistant à base de protéines végétales et d’épices.",
-      ingredients: [
-        "1 verre de pois chiches cuits",
-        "1 verre de lentilles cuites (rouges ou vertes)",
-        "1 oignon",
-        "2 gousses d’ail",
-        "2 c. à soupe de farine (ou farine d’avoine)",
-        "1 c. à soupe de graines de lin moulues (optionnel)",
-        "1 c. à café de cumin",
-        "Sel",
-        "Poivre",
-        "Huile d’olive",
-        "Pains à burger",
-        "Tomate, laitue, cornichons (pour servir)"
-      ],
-      instructions: [
-        "Mixez les pois chiches, lentilles, oignon, ail et épices jusqu’à obtention d’une pâte homogène.",
-        "Ajoutez la farine et les graines de lin, puis mélangez jusqu’à pouvoir former des galettes.",
-        "Façonnez les burgers.",
-        "Faites-les frire dans l’huile d’olive jusqu’à ce qu’ils soient bien dorés.",
-        "Servez dans du pain à burger avec tomate, laitue et cornichons."
-      ]
-    },
-      profiterol: {
-      name: "Profiterole",
-      description: "Un dessert français classique garni de crème pâtissière et nappé de sauce au chocolat.",
-      ingredients: [
-        "1 verre d’eau",
-        "100g de beurre",
-        "1 verre de farine",
-        "3 œufs",
-        "1 pincée de sel",
-        "2 verres de lait (pour la crème)",
-        "2 c. à soupe de farine (pour la crème)",
-        "1 c. à soupe de fécule",
-        "1/2 verre de sucre",
-        "1 œuf (pour la crème)",
-        "1 sachet de vanille",
-        "80g de chocolat noir",
-        "1 verre de lait (pour la sauce)",
-        "1 c. à café de beurre"
-      ],
-      instructions: [
-        "Faire bouillir l’eau, le beurre et le sel. Ajouter la farine, mélanger jusqu’à obtention d’une pâte. Laisser tiédir.",
-        "Incorporer les œufs un par un en mélangeant bien.",
-        "Former des petits tas sur une plaque et cuire à 180°C jusqu’à ce qu’ils soient dorés.",
-        "Préparer la crème : cuire le lait, la farine, la fécule, le sucre et l’œuf. Hors du feu, ajouter la vanille. Laisser refroidir.",
-        "Couper les choux et les garnir de crème.",
-        "Préparer la sauce : chauffer le lait, ajouter le chocolat et le beurre jusqu’à ce que le tout soit fondu.",
-        "Napper les choux garnis de sauce au chocolat et servir."
-      ]
+      register: {
+      title: "Inscription",
+      name: "Nom complet",
+      email: "Adresse e-mail",
+      password: "Mot de passe",
+      submit: "S'inscrire",
+      loginPrompt: "Vous avez déjà un compte ? →",
+      loginLink: "Se connecter",
+      error: "Échec de l'inscription. Veuillez vérifier vos informations."
     }
 
-
-
-
-
-    }
   },
     de: {
     nav: {
@@ -671,7 +718,7 @@ en: {
           "Vor dem Servieren mit gehackter Petersilie bestreuen (nach Wunsch)."
         ]
       },
-      tiramisu: {
+        tiramisu: {
         name: "Tiramisu",
         description: "Ein klassisches italienisches Dessert mit in Kaffee getränkten Löffelbiskuits und einer cremigen Mascarponefüllung.",
         ingredients: [
@@ -688,7 +735,7 @@ en: {
           "Optional vor dem Servieren erneut mit Kakao bestäuben."
         ]
       },
-            baklava: {
+        baklava: {
         name: "Baklava",
         description: "Ein traditionelles türkisches Dessert aus Schichten von Filoteig, gefüllt mit Walnüssen und übergossen mit süßem Sirup.",
         ingredients: [
@@ -734,115 +781,132 @@ en: {
             "Heiß mit Fladenbrot, gegrillten Paprika und Tomaten servieren."
           ]
         },
-      etliGuvec: {
-      name: "Fleisch-Gemüse-Eintopf",
-      description: "Ein im Ofen geschmorter Eintopf, in dem zartes Fleisch auf eine bunte Mischung aus Gemüse trifft.",
-      ingredients: [
-        "500g Rind- oder Lammfleisch in Würfeln",
-        "2 Kartoffeln",
-        "2 Auberginen",
-        "1 Zwiebel",
-        "2 grüne Paprika",
-        "2 Tomaten",
-        "2 Knoblauchzehen",
-        "1 EL Tomatenmark",
-        "Salz",
-        "Schwarzer Pfeffer",
-        "Pflanzenöl"
-      ],
-      instructions: [
-        "Das Fleisch in Öl anbraten, bis es Flüssigkeit abgibt und diese wieder aufnimmt.",
-        "Zwiebel und Knoblauch hinzufügen und einige Minuten mitbraten.",
-        "Tomatenmark einrühren, dann das gewürfelte Gemüse nach und nach dazugeben.",
-        "Mit Salz und Pfeffer würzen und gut vermengen.",
-        "Die Mischung in eine Auflaufform geben und mit Tomatenscheiben belegen.",
-        "Etwas Wasser hinzufügen und mit einem Deckel oder Alufolie abdecken.",
-        "Im vorgeheizten Ofen bei 180°C etwa 45–60 Minuten garen.",
-        "Heiß servieren."
-      ]
+          etliGuvec: {
+          name: "Fleisch-Gemüse-Eintopf",
+          description: "Ein im Ofen geschmorter Eintopf, in dem zartes Fleisch auf eine bunte Mischung aus Gemüse trifft.",
+          ingredients: [
+            "500g Rind- oder Lammfleisch in Würfeln",
+            "2 Kartoffeln",
+            "2 Auberginen",
+            "1 Zwiebel",
+            "2 grüne Paprika",
+            "2 Tomaten",
+            "2 Knoblauchzehen",
+            "1 EL Tomatenmark",
+            "Salz",
+            "Schwarzer Pfeffer",
+            "Pflanzenöl"
+          ],
+          instructions: [
+            "Das Fleisch in Öl anbraten, bis es Flüssigkeit abgibt und diese wieder aufnimmt.",
+            "Zwiebel und Knoblauch hinzufügen und einige Minuten mitbraten.",
+            "Tomatenmark einrühren, dann das gewürfelte Gemüse nach und nach dazugeben.",
+            "Mit Salz und Pfeffer würzen und gut vermengen.",
+            "Die Mischung in eine Auflaufform geben und mit Tomatenscheiben belegen.",
+            "Etwas Wasser hinzufügen und mit einem Deckel oder Alufolie abdecken.",
+            "Im vorgeheizten Ofen bei 180°C etwa 45–60 Minuten garen.",
+            "Heiß servieren."
+          ]
+        },
+          falafel: {
+          name: "Falafel",
+          description: "Knusprige, vegetarische Bällchen aus Kichererbsen und Kräutern – außen knusprig, innen zart.",
+          ingredients: [
+            "2 Tassen getrocknete Kichererbsen (über Nacht eingeweicht)",
+            "1 Zwiebel",
+            "3 Knoblauchzehen",
+            "1/2 Tasse gehackte Petersilie",
+            "1/2 Tasse gehackter frischer Koriander (optional)",
+            "1 TL gemahlener Kreuzkümmel",
+            "1 TL Natron",
+            "Salz",
+            "Schwarzer Pfeffer",
+            "Pflanzenöl zum Frittieren"
+          ],
+          instructions: [
+            "Die Kichererbsen über Nacht einweichen und am nächsten Tag abtropfen lassen.",
+            "Alle Zutaten in einer Küchenmaschine zu einer groben, aber klebrigen Masse verarbeiten.",
+            "Aus der Masse walnussgroße Bällchen formen und leicht flach drücken.",
+            "Öl erhitzen und die Falafel goldbraun frittieren.",
+            "Auf Küchenpapier abtropfen lassen und heiß servieren.",
+            "Nach Wunsch mit Tahinisauce oder Fladenbrot servieren."
+          ]
+        },
+          veganburger: {
+          name: "Veganer Burger",
+          description: "Ein herzhafter, pflanzlicher Burger mit Kichererbsen, Linsen und aromatischen Gewürzen.",
+          ingredients: [
+            "1 Tasse gekochte Kichererbsen",
+            "1 Tasse gekochte Linsen (rot oder grün)",
+            "1 Zwiebel",
+            "2 Knoblauchzehen",
+            "2 EL Mehl (oder Hafermehl)",
+            "1 EL Leinsamen (gemahlen, optional)",
+            "1 TL Kreuzkümmel",
+            "Salz",
+            "Schwarzer Pfeffer",
+            "Olivenöl",
+            "Burgerbrötchen",
+            "Tomate, Salat, Gewürzgurken (zum Servieren)"
+          ],
+          instructions: [
+            "Kichererbsen, Linsen, gehackte Zwiebel, Knoblauch und Gewürze in einer Küchenmaschine pürieren.",
+            "Mehl und Leinsamen hinzufügen und zu einer formbaren Masse verarbeiten.",
+            "Burger-Patties formen.",
+            "In Olivenöl goldbraun braten.",
+            "Im Brötchen mit Tomate, Salat und Gurken servieren."
+          ]
+        },
+          profiterol: {
+          name: "Windbeutel",
+          description: "Ein klassisches französisches Dessert mit Vanillecremefüllung und Schokoladensoße.",
+          ingredients: [
+            "1 Tasse Wasser",
+            "100g Butter",
+            "1 Tasse Mehl",
+            "3 Eier",
+            "Eine Prise Salz",
+            "2 Tassen Milch (für die Creme)",
+            "2 EL Mehl (für die Creme)",
+            "1 EL Stärke",
+            "1/2 Tasse Zucker",
+            "1 Ei (für die Creme)",
+            "1 Päckchen Vanillezucker",
+            "80g Zartbitterschokolade",
+            "1 Tasse Milch (für die Sauce)",
+            "1 TL Butter"
+          ],
+          instructions: [
+            "Wasser, Butter und Salz aufkochen. Mehl einrühren, bis ein Teig entsteht. Etwas abkühlen lassen.",
+            "Eier einzeln unterrühren, bis der Teig glatt ist.",
+            "Mit einem Spritzbeutel kleine Häufchen auf ein Backblech setzen und bei 180°C goldbraun backen.",
+            "Für die Creme Milch, Mehl, Stärke, Zucker und Ei kochen. Vom Herd nehmen, Vanille zugeben und abkühlen lassen.",
+            "Die gebackenen Windbeutel aufschneiden und mit der Creme füllen.",
+            "Für die Sauce Milch erhitzen, Schokolade und Butter einrühren und schmelzen lassen.",
+            "Die gefüllten Windbeutel mit der Schokoladensauce übergießen und servieren."
+          ]
+        },
     },
-      falafel: {
-      name: "Falafel",
-      description: "Knusprige, vegetarische Bällchen aus Kichererbsen und Kräutern – außen knusprig, innen zart.",
-      ingredients: [
-        "2 Tassen getrocknete Kichererbsen (über Nacht eingeweicht)",
-        "1 Zwiebel",
-        "3 Knoblauchzehen",
-        "1/2 Tasse gehackte Petersilie",
-        "1/2 Tasse gehackter frischer Koriander (optional)",
-        "1 TL gemahlener Kreuzkümmel",
-        "1 TL Natron",
-        "Salz",
-        "Schwarzer Pfeffer",
-        "Pflanzenöl zum Frittieren"
-      ],
-      instructions: [
-        "Die Kichererbsen über Nacht einweichen und am nächsten Tag abtropfen lassen.",
-        "Alle Zutaten in einer Küchenmaschine zu einer groben, aber klebrigen Masse verarbeiten.",
-        "Aus der Masse walnussgroße Bällchen formen und leicht flach drücken.",
-        "Öl erhitzen und die Falafel goldbraun frittieren.",
-        "Auf Küchenpapier abtropfen lassen und heiß servieren.",
-        "Nach Wunsch mit Tahinisauce oder Fladenbrot servieren."
-      ]
+      login: {
+      title: "Anmeldung",
+      email: "E-Mail-Adresse",
+      password: "Passwort",
+      submit: "Absenden",
+      signupPrompt: "Klicken Sie hier, um sich kostenlos zu registrieren →",
+      signupLink: "Registrieren",
+      error: "Anmeldung fehlgeschlagen. Überprüfen Sie Ihre Zugangsdaten."
     },
-      veganburger: {
-      name: "Veganer Burger",
-      description: "Ein herzhafter, pflanzlicher Burger mit Kichererbsen, Linsen und aromatischen Gewürzen.",
-      ingredients: [
-        "1 Tasse gekochte Kichererbsen",
-        "1 Tasse gekochte Linsen (rot oder grün)",
-        "1 Zwiebel",
-        "2 Knoblauchzehen",
-        "2 EL Mehl (oder Hafermehl)",
-        "1 EL Leinsamen (gemahlen, optional)",
-        "1 TL Kreuzkümmel",
-        "Salz",
-        "Schwarzer Pfeffer",
-        "Olivenöl",
-        "Burgerbrötchen",
-        "Tomate, Salat, Gewürzgurken (zum Servieren)"
-      ],
-      instructions: [
-        "Kichererbsen, Linsen, gehackte Zwiebel, Knoblauch und Gewürze in einer Küchenmaschine pürieren.",
-        "Mehl und Leinsamen hinzufügen und zu einer formbaren Masse verarbeiten.",
-        "Burger-Patties formen.",
-        "In Olivenöl goldbraun braten.",
-        "Im Brötchen mit Tomate, Salat und Gurken servieren."
-      ]
-    },
-      profiterol: {
-      name: "Windbeutel",
-      description: "Ein klassisches französisches Dessert mit Vanillecremefüllung und Schokoladensoße.",
-      ingredients: [
-        "1 Tasse Wasser",
-        "100g Butter",
-        "1 Tasse Mehl",
-        "3 Eier",
-        "Eine Prise Salz",
-        "2 Tassen Milch (für die Creme)",
-        "2 EL Mehl (für die Creme)",
-        "1 EL Stärke",
-        "1/2 Tasse Zucker",
-        "1 Ei (für die Creme)",
-        "1 Päckchen Vanillezucker",
-        "80g Zartbitterschokolade",
-        "1 Tasse Milch (für die Sauce)",
-        "1 TL Butter"
-      ],
-      instructions: [
-        "Wasser, Butter und Salz aufkochen. Mehl einrühren, bis ein Teig entsteht. Etwas abkühlen lassen.",
-        "Eier einzeln unterrühren, bis der Teig glatt ist.",
-        "Mit einem Spritzbeutel kleine Häufchen auf ein Backblech setzen und bei 180°C goldbraun backen.",
-        "Für die Creme Milch, Mehl, Stärke, Zucker und Ei kochen. Vom Herd nehmen, Vanille zugeben und abkühlen lassen.",
-        "Die gebackenen Windbeutel aufschneiden und mit der Creme füllen.",
-        "Für die Sauce Milch erhitzen, Schokolade und Butter einrühren und schmelzen lassen.",
-        "Die gefüllten Windbeutel mit der Schokoladensauce übergießen und servieren."
-      ]
+      register: {
+      title: "Registrieren",
+      name: "Vollständiger Name",
+      email: "E-Mail-Adresse",
+      password: "Passwort",
+      submit: "Registrieren",
+      loginPrompt: "Sie haben bereits ein Konto? →",
+      loginLink: "Anmelden",
+      error: "Registrierung fehlgeschlagen. Bitte überprüfen Sie Ihre Angaben."
     }
 
-
-
-    }
   }
   };
 
