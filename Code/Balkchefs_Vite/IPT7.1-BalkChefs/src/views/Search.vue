@@ -1,6 +1,6 @@
 <template>
   <div class="p-8">
-    <input v-model="query" placeholder="Tarif ara..." class="border p-2 rounded w-full" />
+    <input v-model="query" placeholder="Search recipe..." class="border p-2 rounded w-full" />
     <div v-if="filteredRecipes.length" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 mt-6">
       <router-link v-for="recipe in filteredRecipes" :key="recipe.id" :to="'/recipe/' + recipe.id"
         class="p-4 bg-white shadow rounded">
@@ -8,7 +8,7 @@
         <p>{{ recipe.description }}</p>
       </router-link>
     </div>
-    <p v-else class="mt-4">Eşleşen tarif bulunamadı.</p>
+    <p v-else class="mt-4">No recipes found</p>
   </div>
 </template>
 

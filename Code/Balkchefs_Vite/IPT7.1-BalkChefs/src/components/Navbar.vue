@@ -29,6 +29,7 @@ export default {};
   height: 60px;
 }
 
+
 .nav-links {
   display: flex;
   gap: 15px;
